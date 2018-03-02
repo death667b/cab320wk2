@@ -75,4 +75,7 @@ if __name__ == "__main__":
     
     print ('w, z = {0},{1}'.format(w,z))
     print ('Search took {0} seconds'.format(t1-t0))
+    
+    print ('a generator object is returned')
+    print ('next(g) will iterate of the generator - in this case there is only one response')
 
